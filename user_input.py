@@ -1,5 +1,6 @@
 import json
 from colorama import init, Fore, Style
+import os
 
 # Initialize colorama
 init()
@@ -54,4 +55,17 @@ json_data = json.dumps(inp_arr)
 # Save JSON data to file
 with open("user_input.json", "w") as file:
     json.dump(json_data, file)
+    
+output = json.dumps(dic)
+
+print("It will take upto 10-20 seconds to show the result")
+print("Please wait...")
+try:
+    os.system("python brain_stroke_prediction.py")
+except:
+    os.system("python3 brain_stroke_prediction.py")
+
+with open("user_inp_output") as file:
+    data = file.read()
+    print(data)
     

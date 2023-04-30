@@ -21,3 +21,10 @@ config = {"filename": filename}
 with open("config.json", "w") as f:
     json.dump(config, f)
 
+print("Please wait it can take upto 30-60 mins")
+#Run the Brain_Stroke_Prediction.ipynb
+os.system("jupyter nbconvert --to notebook --execute Brain_Stroke_Prediction.ipynb")
+
+print("Images and models are saved in the folders")
+print("Please see the detailed results in the Brain_Stroke_Prediction.ipynb")
+
