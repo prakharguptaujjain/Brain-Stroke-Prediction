@@ -16,7 +16,6 @@ https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset
 ```
 .
 │   brain_stroke.csv
-│   Brain_Stroke_Prediction(1).ipynb
 │   Brain_Stroke_Prediction.ipynb
 │   config.json
 │   custom_dataset.py
