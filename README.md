@@ -24,7 +24,6 @@ https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset
 │   models.zip
 │   New Text Document.txt
 │   README.md
-│   Stroke-Prediction.zip
 │   user_input.json
 │   user_input.py
 │   user_inp_output
@@ -37,8 +36,6 @@ https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset
 │       Correlation_matrix.png
 │       Count_plot.png
 │       Imbalanced_data.png
-│       LDA.png
-│       Probabilities One Class SVM.png
 │       Probabilities Voting Ensemble.png
 │       Threshold_plot.png
 │
